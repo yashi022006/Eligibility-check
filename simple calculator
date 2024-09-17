@@ -1,0 +1,22 @@
+'''write a mini program on simple calculator'''
+a= int(input('enter a number'))
+b= int(input('enter a number'))
+add=a+b;sub=a-b ;division=a/b; multiplication =a*b; power=a**b;floor=a//b; modulous=a%b
+choice=input('enter your choice')
+if choice=='add':
+    print('addition of two numbers',add)
+elif choice=='sub':
+    print('substraction of two numbers',sub)
+elif choice=='division':
+    print('division of two numbers',division)
+elif choice=='multiplication':
+    print('multiplication of two numbers',multiplication)
+elif choice=='power':
+    print('power of a number',power)
+elif choice=='floor':
+    print('floor division of two numbers',floor)
+elif choice=='modulous':
+    print('modulous of two numbers',modulous)
+else:
+    print('invalid input')
+    
