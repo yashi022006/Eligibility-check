@@ -1,0 +1,15 @@
+# write a program to check eligibility of individual for vote ,if eligible then take vote and print it.
+individual_age= int(input('enter your age'))
+BJP='bhartiya janta party'
+AAP='aam aadmi party'
+if individual_age>=18:
+    print('eligible for vote')
+    choice=input('enter your choice')
+    if choice=='BJP':
+        print('vote for bjp')
+    elif choice=='AAP':
+        print('vote for aap')
+    else:
+        print('not vote')
+else:
+    print('not eligibile for vote')
